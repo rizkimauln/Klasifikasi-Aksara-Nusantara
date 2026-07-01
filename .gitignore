@@ -1,0 +1,38 @@
+# Dataset (Tidak di-commit karena ukuran file sangat besar)
+Dataset/
+Dataset.zip
+
+# Python & Backend
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+dist/
+.venv/
+venv/
+ENV/
+.env
+
+# Model weights
+# Optional: Uncomment jika tidak ingin upload model Keras ke repo karena batas size Github (limit 100MB)
+# best_model_efficientnet.keras
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.npm
+frontend/.env
+frontend/.env.local
+!frontend/.env.example
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDEs and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
